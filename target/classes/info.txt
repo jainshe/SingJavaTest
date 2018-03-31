@@ -1,0 +1,4 @@
+#To Start the server
+#Go to my documents and serach for  vi testapi5.json
+#Start the server - json-server testapi5.json
+#check for the url-http://localhost:3000/products

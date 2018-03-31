@@ -5,7 +5,7 @@ package practice;
  */
 public class SumOfElements2Darray {
 
-    public static void main(String[] args) {
+    public static void sumOf2darray() {
         int arr[][] =  {{2,1,3},{3,4,5},{5,6,7}};
 
         int sum=0;

@@ -20,7 +20,7 @@ public class ConstructorExample {
         System.out.println(k);
         System.out.println(i);
     }
-    public static void main(String[] args) {
+    public static void AnagramCheckUsingHashMap1() {
      ConstructorExample constructorExample = new ConstructorExample();
         ConstructorExample constructorExample2 = new ConstructorExample(7);
         ConstructorExample constructorExample1 = new ConstructorExample("Hello",6);

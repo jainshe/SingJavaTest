@@ -33,7 +33,7 @@ public class DataTypeConversion {
 
 
     }
-    public static void main(String[] args) {
+    public static void run() {
         DataTypeConversion smallQuestions = new DataTypeConversion();
         smallQuestions.converStringToInt();
         smallQuestions.convertIntToString();

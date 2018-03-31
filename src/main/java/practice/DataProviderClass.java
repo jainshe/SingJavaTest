@@ -14,7 +14,7 @@
 ///**
 // * @author shefali.jain
 // */
-//public class DataProviderClass {
+public class DataProviderClass {
 //
 //
 //
@@ -188,7 +188,7 @@
 //        }
 //    }
 //
-//}
+}
 //
 //
 //

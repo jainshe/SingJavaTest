@@ -1,11 +1,11 @@
-//package practice;
+package practice;
 //
 //import org.testng.annotations.*;
 //
 ///**
 // * @author shefali.jain
 // */
-//public class TestNGExmaple {
+public class TestNGExmaple {
 //
 //    @DataProvider(name = "data")
 //    public static Object[][] subCategoriesForRequest() {
@@ -50,4 +50,4 @@
 //
 //    }
 //
-//}
+}

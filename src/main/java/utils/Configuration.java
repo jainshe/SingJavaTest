@@ -1,45 +1,41 @@
-//package utils;
-//
-//import org.slf4j.Logger;
-//import org.yaml.snakeyaml.Yaml;
-//
-//import java.io.File;
-//import java.io.FileInputStream;
-//import java.io.FileNotFoundException;
-//import java.io.InputStream;
-//import java.util.Map;
-//
-//public class Configuration {
-//    private static final String CONFIG_FILE = "./src/main/resources/Parameters.yml";
-//    private static final String URL_CONFIG_FILE = "./src/main/resources/URLs.yml";
-//    private static final Logger logger = org.slf4j.LoggerFactory.getLogger(Configuration.class);
-//    private static Map configMap = null;
-//    private static Map paramMap = null;
-//
-//    static {
-//        try {
-//            Yaml yaml = new Yaml();
-//            InputStream configStream = new FileInputStream(new File(URL_CONFIG_FILE));
-//            InputStream pacramStream = new FileInputStream(new File(CONFIG_FILE));
-//            //paramMap = (Map) yaml.load(paramStream);
-//            configMap = (Map) yaml.load(configStream);
-//        } catch (FileNotFoundException e) {
-//            logger.error(e.getMessage(), e);
-//        }
-//    }
-//
-//
-//    public static String getEndpoint() {
-//        return String.valueOf(configMap.get("Endpoint"));
-//    }
-//    public static String getPickupLat() {
-//        return String.valueOf(paramMap.get("pickupLat"));
-//    }
-//    public static String getPickUplng() {
-//        return String.valueOf(paramMap.get("pickupLng"));
-//    }
-//    public static String serviceType() {
-//        return String.valueOf(paramMap.get("serviceType"));
-//    }
-//
-//}
+package utils;
+
+import org.yaml.snakeyaml.Yaml;
+
+import java.io.*;
+import java.util.Map;
+import java.util.Properties;
+
+public class Configuration {
+
+    private static Map configMap = null;
+    private static Map paramMap = null;
+    private static String jsonmap = null;
+
+
+    public static String getconfigEndpoint(String filename,String propertyname) throws FileNotFoundException {
+        Yaml yaml = new Yaml();
+        InputStream paramStream = new FileInputStream(new File(filename));
+        paramMap = (Map) yaml.load(paramStream);
+        return String.valueOf(paramMap.get(propertyname));
+    }
+
+
+    public static String getParamEndpoint(String filename,String propertyname) throws FileNotFoundException {
+        Yaml yaml = new Yaml();
+        InputStream configStream = new FileInputStream(new File(filename));
+        configMap = (Map) yaml.load(configStream);
+        return String.valueOf(configMap.get(propertyname));
+    }
+
+
+    public static String getjson(String filename,String propertyname) throws IOException {
+        Properties prop = new Properties();
+        InputStream jsonfile = new FileInputStream(new File(filename));
+        prop.load(jsonfile);
+        return String.valueOf(prop.getProperty(propertyname));
+    }
+
+
+
+}

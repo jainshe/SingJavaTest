@@ -9,7 +9,7 @@ import java.util.Set;
  */
 public class HashMapExample {
 
-    public static void main(String[] args) {
+    public static void AnagramCheckUsingHashMap1() {
        /* Create object of HashMap */
 
         HashMap<String, String> hashMap = new HashMap<String, String>();

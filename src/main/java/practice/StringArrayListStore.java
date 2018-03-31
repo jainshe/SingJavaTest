@@ -41,7 +41,7 @@ public class StringArrayListStore {
         System.out.println(CustomersShoppingLists);
     }
 
-    public static void main(String[] args) {
+    public static void AnagramCheckUsingHashMap1() {
         StringArrayListStore stringArrayListStore = new StringArrayListStore();
         stringArrayListStore.stringarray();
     }

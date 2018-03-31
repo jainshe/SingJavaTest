@@ -39,7 +39,7 @@ public class SingleArray {
         }
     }
 
-    public static void main(String[] args) {
+    public static void AnagramCheckUsingHashMap1() {
         SingleArray singleArray = new SingleArray();
         singleArray.printArray();
         singleArray.printArraysecondWay();

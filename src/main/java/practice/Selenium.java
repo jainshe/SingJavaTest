@@ -1,4 +1,4 @@
-//package practice;
+package practice;
 //
 //import org.openqa.selenium.By;
 //import org.openqa.selenium.WebDriver;
@@ -10,7 +10,7 @@
 ///**
 // * @author shefali.jain
 // */
-//public class Selenium {
+public class Selenium {
 //
 //
 //    public static void main(String args[]){
@@ -31,4 +31,4 @@
 //
 //        }
 //    }
-//}
+}

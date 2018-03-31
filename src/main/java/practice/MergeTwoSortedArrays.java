@@ -4,7 +4,7 @@ package practice;
  * @author shefali.jain
  */
 public class MergeTwoSortedArrays {
-    public static void main(String[] args) {
+    public static void AnagramCheckUsingHashMap1() {
         int arr1[] = {1, 5, 7, 8};
         int arr2[] = {5, 8, 9, 12};
         int[] arr3 = new int[8];

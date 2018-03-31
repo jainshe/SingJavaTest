@@ -52,7 +52,7 @@ public class notowords1 {
         return convert(n / 10000000) + " Crore" + ((n % 10000000 != 0) ? " " : "") + convert(n % 10000000);
     }
 
-    public static void main(final String[] args) {
+    public static void notowords() {
 
         int n;
 

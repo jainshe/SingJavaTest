@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/switchProjects.iml" filepath="$PROJECT_DIR$/switchProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingJava.iml" filepath="$PROJECT_DIR$/SingJava.iml" />
     </modules>
   </component>
 </project>

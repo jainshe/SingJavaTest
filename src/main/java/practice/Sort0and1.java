@@ -31,7 +31,7 @@ public class Sort0and1 {
     }
 
     // driver function
-    public static void main(String[] args) {
+    public static void AnagramCheckUsingHashMap1() {
         int arr[] = new int[]{0, 1, 0, 1, 1, 1};
         int n = arr.length;
 

@@ -6,7 +6,7 @@ package practice;
 public class MultiThreadingExample
 
 {
-    public static void main(String[] args) {
+    public static void AnagramCheckUsingHashMap1() {
        ExampleHiClass exampleHiClass = new ExampleHiClass();
         ExampleHelloClass exampleHelloClass = new ExampleHelloClass();
 

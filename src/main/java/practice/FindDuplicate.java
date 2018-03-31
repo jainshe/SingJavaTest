@@ -7,7 +7,7 @@ import java.util.Map;
  * @author shefali.jain
  */
 public class FindDuplicate {
-    public static void main(String[] args) {
+    public static void AnagramCheckUsingHashMap1() {
  FindDuplicate findDuplicate = new FindDuplicate();
         findDuplicate.inttest();
     }

@@ -7,7 +7,7 @@ import java.util.Map;
  * @author shefali.jain
  */
 public class HasmapExample2 {
-    public static void main(String args[]){
+    public static void AnagramCheckUsingHashMap1(){
         HashMap<Integer,String> hm=new HashMap<Integer,String>();
         hm.put(100,"Amit");
         hm.put(101,"Vijay");

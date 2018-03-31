@@ -7,7 +7,7 @@ import java.util.List;
  * @author shefali.jain
  */
 public class NestedList {
-    public static void main(final String[] args)
+    public static void AnagramCheckUsingHashMap1()
     {
         //sample CSV strings...pretend they came from a file
         String[] csvStrings = new String[] {

@@ -33,7 +33,7 @@ public class RotateArray {
     }
 
     // Driver program to test above functions
-    public static void main(String[] args)
+    public static void AnagramCheckUsingHashMap1()
     {
         RotateArray rotate = new RotateArray();
         int arr[] = {1, 2, 3, 4, 5, 6, 7};

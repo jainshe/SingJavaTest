@@ -24,7 +24,7 @@ public class ExceptionHandling {
         }
     }
 
-    public static void main(String[] args) {
+    public static void AnagramCheckUsingHashMap1() {
         ExceptionHandling exceptionHandling = new ExceptionHandling();
         exceptionHandling.p();
         System.out.println("exception handled here");

@@ -11,7 +11,7 @@ public class AnagramExample {
     public static String string12 = "Hitler Woman";
     static boolean status = true;
 
-    public static void main(String[] args) {
+    public static void AnagramCheckUsingHashMap1() {
         String string1 = string11.replaceAll("\\s", "");
         System.out.println(string1);
         String string2 = string12.replaceAll("\\s","");

@@ -9,7 +9,7 @@ import java.util.Set;
  * @author shefali.jain
  */
 public class RemoveConsecutiveChars {
-    public static void main(String[] args) {
+    public static void AnagramCheckUsingHashMap1(){
         // removduplicatebyloop();
           remove_repeated_char("javvvvaaaaaak");
 

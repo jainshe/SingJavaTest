@@ -20,7 +20,7 @@ public class SortString {
         }
         System.out.println(charArray);
     }
-    public static void main(String[] args) {
+    public static void AnagramCheckUsingHashMap1() {
         SortString sortString = new SortString();
         sortString.sortString1("geekforgeek");
     }

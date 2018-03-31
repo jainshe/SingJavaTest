@@ -8,7 +8,7 @@ import java.util.Map;
  */
 public class AnagramCheckUsingHashMap {
 
-    public static void main(String[] args) {
+    public static void AnagramCheckUsingHashMap1() {
         String three = "dorm";
         String four = "mordor";
         //LOTR refernce

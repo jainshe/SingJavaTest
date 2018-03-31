@@ -6,7 +6,7 @@ package practice;
 public class FinctionOverridingChildClass extends FunctionOverridingParentClass{
     void run(){System.out.println("Bike is running safely");}
 
-    public static void main(String args[]){
+    public static void AnagramCheckUsingHashMap1(){
         FinctionOverridingChildClass obj = new FinctionOverridingChildClass();
         obj.run();
     }

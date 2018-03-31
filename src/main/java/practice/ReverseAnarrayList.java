@@ -10,7 +10,7 @@ public class ReverseAnarrayList {
 
 
 
-    public static void main(String args[])
+    public static void AnagramCheckUsingHashMap1()
     {
         ArrayList<String> listOfInts = new ArrayList<String>();
         listOfInts.add("1");

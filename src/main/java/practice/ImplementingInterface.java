@@ -21,7 +21,7 @@ public class ImplementingInterface extends CollectioneExample implements Interfa
         System.out.println("This is cute");
     }
 
-    public static void main(String[] args) {
+    public static void AnagramCheckUsingHashMap1() {
         ImplementingInterface implementingInterface = new ImplementingInterface();
         implementingInterface.show();
         implementingInterface.display();
@@ -31,7 +31,7 @@ public class ImplementingInterface extends CollectioneExample implements Interfa
         Interface3 obj2= new ImplementingInterface();
         obj2.surprise();
         CollectioneExample collectioneExample = new CollectioneExample();
-        collectioneExample.collectionWithOnlyString();
+      //  collectioneExample.collectionWithOnlyString();
     }
 
 

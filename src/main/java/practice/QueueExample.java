@@ -9,7 +9,7 @@ import java.util.Queue;
  */
 public class QueueExample {
 
-    public static void main(String[] args) {
+    public static void AnagramCheckUsingHashMap1() {
         QueueExample queueExample = new QueueExample();
         queueExample.queueInsertion();
         queueExample.dequeueInsertion();

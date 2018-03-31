@@ -10,7 +10,7 @@ public class SubstringExample {
     public static String[] substringArray = {"apple","apple","banana","banana","banana"};
 
 
-    public static void main(String[] args) {
+    public static void AnagramCheckUsingHashMap1() {
         SubstringExample substringExample = new SubstringExample();
         substringExample.returnNoOfsubstringsStrings();
         substringExample.returnNoOfSubStringsinArray();
